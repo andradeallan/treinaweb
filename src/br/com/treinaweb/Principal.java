@@ -4,13 +4,19 @@ public class Principal {
 
     public static void main (String[] args) {
 
-        int a = 2;
-        int b = 3;
-        int c = 5;
-        int resultado = (a * b) + c;
-        System.out.println("O resultado de " + a + " x " + b + " + "+ c +" é " + resultado);
-        System.out.printf("O resultado de %d x %d + %d é %d", a, b, c, resultado);
-
+        int a = 3;
+        int b = 5;
+        double resultadoDivisao = a / 5.0;
+//        int c = 5;
+//        int resultado = (a * b) + c;
+//        System.out.println("O resultado de " + a + " x " + b + " + "+ c +" é " + resultado);
+//        System.out.printf("O resultado de %d x %d + %d é %d", a, b, c, resultado);
+        System.out.printf("%d + %d = %d%n", a, b, a + b);
+        System.out.printf("%d - %d = %d%n", a, b, a - b);
+        System.out.printf("%d x %d = %d%n", a, b, a * b);
+        System.out.printf("%d / %d = %d%n", a, b, a / b);
+        System.out.printf("%d módulo %d = %d%n", a, b, a % b);
+        System.out.printf("%d / %d = %f%n", a, b, resultadoDivisao);
     }
 }
 
